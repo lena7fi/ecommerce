@@ -1,0 +1,25 @@
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    .feature {
+        background-color: rgb(229, 237, 238);
+        border-radius: 10px;
+        padding: 10px 50px;
+        i {
+            font-size: 100px;
+            margin-bottom: 10px;
+        }
+        a {
+            font-family: cursive;
+            text-decoration: none;
+            color: black;
+            font-size: 22px;
+        }
+        a:hover {
+            text-shadow: 2px 2px 4px #000000;
+        }
+    }
+}

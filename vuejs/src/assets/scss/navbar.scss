@@ -1,0 +1,30 @@
+.navbar {
+    padding: 10px;
+    background-color: white;
+    width: 100%;
+    box-shadow: 10px 10px 5px #dddddd;
+    .menu {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 8px;
+
+    .menu-item {
+        padding: 0px 10px 0px 10px;
+
+        a {
+        color: black;
+        font-weight: 500;
+        text-decoration: none;
+        }
+
+        a:hover {
+        color: grey;
+        }
+    }
+
+    .hidden {
+        display: none;
+    }
+    }
+}

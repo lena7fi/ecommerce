@@ -1,0 +1,52 @@
+.register {
+    width: 335px;
+    text-align: center;
+    p {
+        font-family: cursive;
+        a {
+            color: black;
+        }
+    }
+    b {
+        font-size: 33px;
+        font-family: cursive;
+    }
+
+    .form-group {
+        position: relative;
+        margin-top: 10px;
+        i {
+            position: absolute;
+            top: 10px;
+            left: 5px;
+            font-size: 16px;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px 0px 10px 25px;
+            font-size: 14px;
+            border: none;
+            outline: 0px;
+            border-radius: 5px;
+            background-color: #e0ebe9;
+        }
+
+    }
+    
+    .forgot {
+        margin-top: 40px;
+        color: black;
+        margin-bottom: 50px;
+    }
+
+    .btn-register {
+        padding: 5px 20px;
+        border: none;
+        border-radius: 50px;
+        background-color: #313131;
+        color: white;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+}

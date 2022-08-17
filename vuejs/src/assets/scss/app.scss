@@ -1,0 +1,46 @@
+#app {
+    background-image: linear-gradient(180deg, white, #9d9d9d);
+    
+    .content {
+      .full {
+        height: 100vh;
+      }
+      .left-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 100px;
+      }
+  
+      .right-content {
+        img {
+          width: 100%;
+          height: 100vh;
+        }
+      }
+    }
+  }
+  
+  @media screen and (min-width: 770px) {
+    #app {
+      .navbar {
+        position: fixed;
+        .toggler {
+          button {
+            display: none!important;
+          }
+        }
+      }
+    }
+  }
+  
+  @media (max-width: 770px) {
+    #app {
+      .navbar {
+        position: relative;
+        .menu {
+          display: none;
+        }
+      }
+    }
+  }
